@@ -1,0 +1,22 @@
+{
+  "name": "open-croquis-backend",
+  "version": "1.0.0",
+  "description": "Backend for open-croquis, for compiling, accessing files, etc. (all the things that need nodejs)",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/open-croquis/open-croquis-app.git"
+  },
+  "author": "open-croquis",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/open-croquis/open-croquis-app/issues"
+  },
+  "homepage": "https://github.com/open-croquis/open-croquis-app#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
