@@ -1,0 +1,54 @@
+@font-face {
+	font-family: Euclid;
+	src:url("../fonts/EuclidCircularA-Regular.ttf");
+}
+
+@font-face {
+	font-family: "Euclid Bold";
+	src:url("../fonts/EuclidCircularA-Bold.ttf");
+}
+
+@font-face {
+	font-family: Roboto;
+	src:url("../fonts/Roboto-Regular.ttf");
+}
+
+@font-face {
+	font-family: "Roboto Bold";
+	src:url("../fonts/Roboto-Bold.ttf");
+}
+
+body {
+	font-family: Roboto;
+}
+
+h1, h2, h3 {
+	margin: 16px 0;
+	font-family: Euclid;
+	font-weight: 300;
+}
+
+button {
+	background: #EEE;
+	border:solid 1px #DDD;
+	outline: none;
+	padding: 6px 10px;
+	transition: border-color 0.25s, background 0.25s;
+	display: flex;
+	align-items: center;
+}
+
+button img {
+	margin-right: 6px;
+}
+
+button:hover {
+	border-color: rgba(0,127.5,255,0.5);
+	background: rgba(0,127.5,255,0.15);
+}
+
+button:active {
+	border-color: rgba(0,127.5,255,1);
+	background: rgba(0,127.5,255,0.35);
+	transition: 0.05s;
+}
