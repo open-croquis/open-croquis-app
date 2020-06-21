@@ -36,10 +36,17 @@ button {
 	transition: border-color 0.25s, background 0.25s;
 	display: flex;
 	align-items: center;
+	margin: 3px;
 }
 
 button img {
 	margin-right: 6px;
+}
+
+button .expand {
+	margin-right: 0px;
+	margin-left: 6px;
+	height: 8px;
 }
 
 button:hover {
